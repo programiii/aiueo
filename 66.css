@@ -1,0 +1,1403 @@
+@charset "utf-8";
+
+
+
+/* container */
+
+.container {
+    width: 979px;
+}
+
+body > header {
+    
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+    border-radius: 1px solid #e5e5e5;
+}
+
+body > header h1 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+#gmenu {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    display: table;
+    background-color: #000;
+}
+
+#gmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: table-cell;
+    text-align: middle;
+    height: 80px;
+
+}
+
+#gmenu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#gmenu  li:last-child {}
+
+
+#gmanu li a {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+}
+
+#gmenu li a span {
+    font-size: 12px;
+    font-weight: normal;
+    color: #a30613;
+    display: block;
+    margin-top: 3px;
+    font-family: "centurygothic","游ゴシック", yugothic;
+}
+
+
+/* footer */
+
+body > footer {
+    margin-top: 80px;
+    padding-bottom: 40px;
+    background: #000;
+    font-size: 12px;
+}
+
+body > footer .foot-bar {
+    background: #222;
+    height: 50px;
+
+}
+
+body > footer .foot-bar .pagetop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 0;
+}
+
+body > footer .foot-bar .pagetop a {
+    color: #fff
+}
+
+body > footer .foot-bar .sns ul {
+margin: 0;
+padding: 0;
+text-align: center;
+width: 1000%;
+}
+
+body > footer .foot-bar .sns li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 5px;
+
+}
+
+body > footer .foot-bar .sns li:last-child {
+    margin-right: 0;
+}
+
+body > footer .foot-bar .sns li a {
+    color: #fff;
+}
+
+body > footer .copy {
+    margin-top: 20px;
+    color: #fff !important;
+}
+
+body > footer h1 {
+    margin: 0;
+
+}
+
+body > footer h1 img {
+    min-width: 100%;
+    height: auto;
+}
+
+body > footer nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body > footer nav li {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+body > footer nav li a {
+    color: #a30613 !important;
+}
+
+
+/* top */
+.home header .title h1 {
+    font-size: 24px;
+    margin: -80px 0 60px 0;
+    padding-top: 140px;
+}
+
+.home header. title h1 span {
+    margin-top: 10px;
+}
+
+.home #mainimage {
+    height: 100vh;
+    background: url(../img/mainimage.jpg) no-repeat center left;
+    background-size: cover;
+} 
+
+.home #mainimage-copy h1 {
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-top: -52.5px;
+    margin-left: -221px;
+}
+
+.home #mainimage-copy p {
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+    top: 58%;
+    left: 50%;
+    margin-left: -170px;
+    color: #a30613;
+    font-size: 17px;
+    font-weight: bold;
+    width: 34px;
+    letter-spacing: -1px;
+}
+
+.home #mainimage-copy .appear {
+    animation: show 1.5s ease-out backwards;
+
+}
+
+.home #mainimage-copy .d1 {
+    animation-delay: 0.5s;
+}
+
+.home #mainimage-copy .d2 {
+    animation-delay: 1.5s;
+}
+
+.home #pagedown {
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+    top: 90px;
+    left: 50%;
+    margin-left: -24px;
+}
+
+@keyframes show {
+    0% {
+        transform: translate3d(1em, 0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0);
+        opacity: 1;
+    }
+}
+
+#home-concept .concept {
+    margin-bottom: 20px;
+
+}
+
+#home-concept .concept img {
+     width: 100%;
+     height: auto;
+}
+
+#home-concept .concept h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    padding: 0;
+}
+
+#home-concept h2 concept-sub {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 40px 0;
+    text-align: center;
+}
+
+
+/* main */
+body. home section#main {
+    padding-top: 80px;
+    margin-top: -80px;
+
+}
+
+body.home section#main section:nth-child(even) {
+    background-color: #f8f7f6;
+    border-bottom: 1px solid #f3f1ef;
+    border-top: 1px solid #f3f1ef ;
+}
+body.home section#main > section {
+    padding: 0 0 60px 0;
+}
+
+section#main {
+    padding-top: 120px;
+}
+
+/* home-salon */
+#home-salon .salon-list {
+
+}
+
+#home-salon .salon-list .shop-tel a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#home-salon .salon-list .col-sm-4 {
+    margin-bottom: 40px;
+}
+
+#home-salon img {
+    min-width: 100%;
+}
+
+#home-salon .salon-list h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    padding: 0;
+
+}
+
+#home-salon .salon-list p {
+    font-style: 14px;
+}
+
+#home-salon .salon-list nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#home-salon .salon-list nav li {
+    display: inline-block;
+    background: url(../img/icon-arrow.png) no-repeat center left;
+    background-size: 14px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+#home-salon .salon-list > .row .col-sm-6 {
+    margin-bottom: 20px;
+}
+
+/* home-gallery */
+#home-gallery {
+    padding-bottom: 40px;
+}
+#home-gallery ul {
+    padding: 0;
+    list-style: none;
+    list-style: none;
+    margin-bottom: 30px;
+}
+#home-gallery li {
+    margin-bottom: 30px;
+    overflow: hidden;
+    max-height: 350px;
+}
+#home-gallery .gallery .gallery-list img {
+    width: 100%;
+    height: auto;
+}
+
+/* .gallery-list */
+.gallery-list {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.gallery-list.row:before, .gallery-list.row:before {
+    display: none;
+}
+
+.gallery-list li a {
+    display: block;
+} 
+
+
+/* 下層共通 */
+
+hr {
+    border-color: #e5e5e5;
+}
+
+header.title h1 {
+    color: #a30613;
+    font-size: 32px;
+    font-family: "centurygothic";
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
+/* 店舗情報 */
+#salon-contact {
+    
+        font-family: YuMincho; serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        color: #a30613;
+        position: fixed;
+        top: 120px;
+        right: 40px;
+        z-index: 1000;
+        width: 150px;
+        height: 150px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: 1px solid #a30613
+
+
+    
+}
+
+#salon-contact a {
+  color: #a30613;
+}
+#salon-contact .tit {
+  margin-top: 30px;
+}
+#salon-contact .name {
+  font-size: 12px;
+  width: 130px;
+  margin: 5px auto 10px auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a30613;
+}
+#salon-contact .tel {
+  font-size: 16px;
+}
+
+.nav-tabs-wrap {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 60px 0;
+}
+
+.nav-tabs {
+  border-bottom: none;
+  text-align: center;
+  display: table;
+  margin: auto;
+}
+.nav-tabs li {
+  display: table-cell;
+}
+.nav-tabs li:first-child a {
+  border-top: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
+}
+.nav-tabs li:last-child a {
+  border-right: 1px solid #e5e5e5;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+}
+.nav-tabs li a {
+  border-top: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  width: 180px;
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  background: #f0f0f0;
+}
+.nav-tabs li.active a {
+  background: #fff;
+}
+.nav-tabs h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.single-salon #pagedown {
+  text-align: center;
+  margin: 30px 0;
+  display: none;
+}
+
+/* #shop-images
+----------------------------------------------------*/
+.slider {
+  padding: 0;
+  display: none;
+}
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+/*body.single-salon .slider img{
+    height: 400px;
+    width: auto;
+}*/
+#pager {
+  text-align: center;
+  margin: 40px 0;
+}
+#pager a {
+  padding: 0 10px;
+}
+
+/* LOADER */
+.bx-wrapper .bx-loading {
+  min-height: 50px;
+  background: url(../img/loader.gif) center center no-repeat #fff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+/* #shop-concept
+----------------------------------------------------*/
+#shop-concept {
+  max-width: 810px;
+  text-align: center;
+  line-height: 1.8;
+  letter-spacing: 2px;
+}
+#shop-concept h2 {
+  font-family: "游明朝", YuMincho, serif;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 0 0 20px 0;
+}
+#shop-concept p {
+  font-size: 15px;
+}
+
+/* #shop-detail
+----------------------------------------------------*/
+#shop-detail #map {
+  width: 100%;
+  height: 240px;
+}
+#shop-detail h2 {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+#shop-detail th, #shop-detail td {
+  padding: 8px 0;
+  vertical-align: top;
+}
+#shop-detail th {
+  font-weight: normal;
+  width: 40%;
+}
+
+/* #shop-info
+----------------------------------------------------*/
+#shop-info {
+  margin-top: 20px;
+}
+#shop-info h2 {
+  font-family: "centurygothic", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, Osaka, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #a30613;
+  margin: 0 0 20px 0;
+}
+#shop-info article {
+  margin-bottom: 10px;
+}
+#shop-info article p {
+  margin-top: 5px;
+}
+#shop-info article .rss-thumb {
+  width: 120px;
+  height: 90px;
+  overflow: hidden;
+}
+#shop-info article .rss-thumb img {
+  width: 100%;
+  height: auto;
+}
+#shop-info article time {
+  padding-right: 20px;
+  display: block;
+}
+#shop-info article a {
+  display: block;
+  color: #a30613;
+  text-decoration: underline;
+}
+#shop-info a.more {
+  display: inline-block;
+  margin-top: 20px;
+  color: #a30613;
+  text-decoration: underline;
+}
+
+/* #shop-menu
+----------------------------------------------------*/
+#shop-menu h2 {
+  font-family: "centurygothic", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, Osaka, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  color: #a30613;
+  margin: 0 0 20px 0;
+}
+#shop-menu h3 {
+  font-family: "centurygothic", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, Osaka, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  border-bottom: 1px solid #6d624c;
+  padding-bottom: 10px;
+}
+#shop-menu h3 span {
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, Osaka, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+}
+#shop-menu dt {
+  text-align: left;
+  padding: 10px 0 5px 0;
+  width: 280px;
+}
+#shop-menu dd {
+  text-align: right;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 0 5px 0;
+  padding: 10px 0 10px 0;
+}
+
+/* #shop-staff
+----------------------------------------------------*/
+#shop-staff h2 {
+  font-family: "centurygothic", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, Osaka, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  color: #a30613;
+  margin: 0 0 40px 0;
+}
+#shop-staff ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+#shop-staff ul img {
+  width: 100%;
+  height: auto;
+}
+#shop-staff ul p {
+  margin: 10px 0 20px 0;
+}
+
+/*----------------------------------------------------
+ページナビ
+----------------------------------------------------*/
+.pagenav {
+  font-size: 16px;
+  margin-top: 20px;
+  /*  padding: 0;*/
+}
+.pagenav:after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0.1px;
+  font-size: 0.1em;
+  line-height: 0;
+  clear: both;
+}
+.pagenav a {
+  color: #a30613;
+  font-size: 18px;
+  font-family: "centurygothic", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, Osaka, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.pagenav .nav-previous {
+  float: left;
+}
+.pagenav .nav-previous a {
+  line-height: normal;
+  padding: 0 0 0 32px;
+  background: url(../img/btn-gallery-prev.png) no-repeat 0% 50%;
+  background-size: 22px;
+}
+.pagenav .nav-next {
+  float: right;
+}
+.pagenav .nav-next a {
+  line-height: normal;
+  padding: 0 32px 0 0;
+  background: url(../img/btn-gallery-next.png) no-repeat 100% 50%;
+  background-size: 22px;
+}
+
+.wp-pagenavi {
+  clear: both;
+  font-size: 18px;
+  margin: 50px auto;
+  display: table;
+}
+.wp-pagenavi:after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0.1px;
+  font-size: 0.1em;
+  line-height: 0;
+  clear: both;
+}
+.wp-pagenavi a {
+  text-decoration: none;
+  display: block;
+  float: left;
+  margin-right: 20px;
+  line-height: 33px;
+  text-align: center;
+}
+.wp-pagenavi span {
+  text-decoration: none;
+  display: block;
+  float: left;
+  margin-right: 20px;
+  line-height: 33px;
+  text-align: center;
+}
+.wp-pagenavi span.current {
+  color: #e60012;
+}
+.wp-pagenavi .nextpostslink {
+  background: url(../img/arrow_right.png) no-repeat;
+  background-size: 33px;
+  border: none;
+  height: 0;
+  overflow: hidden;
+  padding-top: 33px;
+  width: 33px;
+  height: 33px;
+}
+.wp-pagenavi .previouspostslink {
+  background: url(../img/arrow_left.png) no-repeat;
+  background-size: 33px;
+  border: none;
+  height: 0;
+  overflow: hidden;
+  padding-top: 33px;
+  width: 33px;
+  height: 33px;
+}
+.wp-pagenavi a:hover.previouspostslink, .wp-pagenavi a:hover.nextpostslink {
+  opacity: 0.8;
+}
+
+.single .pagenav {
+  width: 642px;
+  margin: 0 auto 60px auto;
+}
+.single .pagenav a:hover {
+  opacity: 0.8;
+}
+.single .pagenav .nextpostslink a {
+  background: url(../img/arrow_right.png) no-repeat;
+  background-size: 33px;
+  border: none;
+  height: 0;
+  overflow: hidden;
+  padding-top: 33px;
+  display: block;
+  width: 33px;
+  float: right;
+}
+.single .pagenav .previouspostslink a {
+  background: url(../img/arrow_left.png) no-repeat;
+  background-size: 33px;
+  border: none;
+  height: 0;
+  overflow: hidden;
+  padding-top: 33px;
+  display: block;
+  width: 33px;
+  float: left;
+}
+
+/*----------------------------------------------------
+SP
+----------------------------------------------------*/
+#gmenu-sp, #salon-contact-sp {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .home #mainimage {
+    /*background-size: 1280px;*/
+    /*        background: url(../img/mainimage-sp.jpg) no-repeat top ;
+            background-size: cover;*/
+  }
+  .home #mainimage-copy p {
+    font-size: 14px;
+    width: 260px;
+    top: 55%;
+    left: 50%;
+    margin-left: -130px;
+  }
+  /*トップ
+  ----------------------------------------------------*/
+  /*店舗情報*/
+  #home-salon .salon-list h2 {
+    margin-top: 0;
+  }
+  /*店舗情報
+  ----------------------------------------------------*/
+  #salon-contact {
+    display: none;
+  }
+  #salon-contact-sp {
+    display: block;
+    font-family: "游明朝", YuMincho, serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    z-index: 900;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(163, 6, 19, 0.8);
+  }
+  #salon-contact-sp a {
+    color: #fff;
+  }
+  #salon-contact-sp .tel {
+    padding-top: 5px;
+    font-size: 30px;
+  }
+  #shop-info article .rss-thumb {
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+  }
+  .single-salon #pagedown {
+    display: block;
+  }
+  .single-salon #shop-images, .single-salon #shop-concept, .single-salon #shop-detail, .single-salon #shop-menu, .single-salon #shop-info, .single-salon #shop-staff, .single-salon #shop-gallery {
+    padding-top: 51px;
+    margin-top: -51px;
+  }
+  /*----------------------------------------------------
+  スタッフ
+  ----------------------------------------------------*/
+  #staff-image .staff-profile th {
+    white-space: nowrap;
+  }
+}
+/*----------------------------------------------------
+TABLET
+----------------------------------------------------*/
+@media (max-width: 1023px) {
+  #gmenu {
+    display: none;
+  }
+  body > header, #gmenu-sp {
+    display: block;
+  }
+  body > header {
+    background: #000;
+    width: 100%;
+    height: 41px;
+    
+    top: 0;
+    z-index: 100;
+    border-bottom: none;
+  }
+  body > header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: none;
+    font-size: 0px;
+    line-height: 41px;
+    position: static;
+  }
+  body > header h1 img {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: none;
+    width: 113px;
+    height: auto;
+  }
+  .home #mainimage-copy h1 {
+    text-align: center;
+    position: absolute;
+    z-index: 100;
+    margin: 0;
+    top: 45%;
+    left: 50%;
+    margin-top: -42.5px;
+    margin-left: -150px;
+    width: 300px;
+  }
+  .home #mainimage-copy h1 img {
+    width: 100%;
+    height: auto;
+  }
+  /*ヘッダーメニュー*/
+  #gmenu-sp nav {
+    position: relative;
+    z-index: 1000;
+  }
+  #gmenu-sp nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  #gmenu-sp nav li {
+    margin: 0;
+    padding: 12px 10px;
+    list-style: none;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid #333;
+    font-weight: bold;
+    font-style: italic;
+  }
+  #gmenu-sp nav li:last-child {
+    border-bottom: none;
+  }
+  #gmenu-sp nav li span {
+    font-size: 10px;
+    padding-left: 10px;
+    font-weight: normal;
+    font-family: "centurygothic", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, Osaka, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #a30613;
+  }
+  #gmenu-sp nav li a {
+    display: block;
+    color: #fff;
+  }
+  #gmenu-sp #btn-menu-toggle {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  #gmenu-sp nav {
+    width: 100%;
+    padding: 0;
+    display: none;
+  }
+  /*ハンバーガーメニューエフェクト*/
+  .menu-trigger {
+    display: inline-block;
+    transition: all 0.4s;
+    box-sizing: border-box;
+    position: relative;
+    width: 25px;
+    height: 20px;
+  }
+  .menu-trigger span {
+    display: inline-block;
+    transition: all 0.4s;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #a30613;
+  }
+  .menu-trigger span:nth-of-type(1) {
+    top: 2px;
+  }
+  .menu-trigger span:nth-of-type(2) {
+    top: 9px;
+  }
+  .menu-trigger span:nth-of-type(3) {
+    bottom: 2px;
+  }
+  .menu-trigger.open span:nth-of-type(1) {
+    -webkit-transform: translateY(7px) rotate(-45deg);
+    transform: translateY(7px) rotate(-45deg);
+  }
+  .menu-trigger.open span:nth-of-type(2) {
+    opacity: 0;
+  }
+  .menu-trigger.open span:nth-of-type(3) {
+    -webkit-transform: translateY(-7px) rotate(45deg);
+    transform: translateY(-7px) rotate(45deg);
+  }
+  /*フッター
+  ----------------------------------------------------*/
+  body > footer {
+    margin-top: 100px;
+    padding-bottom: 40px;
+    /*background: #f8f7f6;*/
+    font-size: 14px;
+  }
+  body > footer .foot-bar {
+    margin-bottom: 0;
+  }
+  body > footer .foot-bar .pagetop {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    line-height: 0;
+    background-color: #b6b0a6;
+    width: 100%;
+    text-align: center;
+    background: #000;
+  }
+  body > footer .foot-bar .pagetop a {
+    display: block;
+  }
+  body > footer .copy {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  body > footer h1 {
+    margin: 40px 0 20px 0;
+    line-height: 0;
+  }
+  body > footer nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  body > footer nav li {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  body > footer nav li a {
+    color: #999999;
+  }
+  body.home section#main {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  body.home header.title h1 {
+    margin: -40px 0 0 0;
+    padding: 100px 0 60px 0;
+  }
+  /*トップ
+  ----------------------------------------------------*/
+  /*店舗情報*/
+  #home-salon .salon-list h2 {
+    margin-top: 0;
+  }
+  #home-salon .salon-list .col-sm-4 {
+    margin-bottom: 30px;
+  }
+  .home #pagedown {
+    top: 70%;
+  }
+  /*下層共通
+  ----------------------------------------------------*/
+  section#main {
+    padding-top: 80px;
+  }
+  /*店舗情報
+  ----------------------------------------------------*/
+  #salon-contact {
+    top: 60px;
+    right: 20px;
+    z-index: 900;
+  }
+  .nav-tabs li a {
+    width: auto;
+    display: block;
+    text-align: center;
+    padding: 15px 20px;
+    background: #f0f0f0;
+  }
+  .nav-tabs h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  #pager {
+    text-align: center;
+    margin: 20px 0;
+  }
+  #pager a {
+    padding: 0 10px;
+  }
+  #pager a img {
+    width: 50px;
+    height: auto;
+  }
+  #shop-info article .rss-thumb {
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+  }
+  /* #shop-detail
+  ----------------------------------------------------*/
+  #shop-detail .col-sm-6, #shop-menu .col-sm-6 {
+    margin-bottom: 40px;
+  }
+  /* #shop-menu
+  ----------------------------------------------------*/
+  /* ギャラリー
+  ----------------------------------------------------*/
+  .single-gallery #shop-gallery h2 span {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  .single-gallery #shop-gallery ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  .single-gallery #shop-gallery li {
+    margin-bottom: 30px;
+  }
+  .single-gallery #shop-gallery .gallery-list img {
+    width: 100%;
+    height: auto;
+  }
+}
+/*----------------------------------------------------
+リクルートページ
+----------------------------------------------------*/
+.recruit > header h1 {
+  top: 12px;
+}
+.recruit > header h1 span {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.recruit #mainimage {
+  height: 100vh;
+  background: url(../img/recruit/img-mainimage.jpg) no-repeat center center;
+  background-size: cover;
+}
+.recruit.home #mainimage-copy p {
+  color: #fff;
+}
+.recruit section h1 {
+  text-transform: uppercase;
+}
+
+@media (max-width: 1023px) {
+  .recruit > header h1 span {
+    display: none;
+  }
+}
+body.home.recruit section#main section:nth-child(even) {
+  background-color: #fff !important;
+}
+
+.recruit section.yearly-schedule ul {
+  padding: 0;
+  list-style: none;
+}
+.recruit section.yearly-schedule li {
+  text-align: center;
+}
+.recruit section.yearly-schedule li img {
+  max-width: 100%;
+}
+.recruit section.interview article {
+  margin-bottom: 40px;
+}
+.recruit section.interview article img {
+  max-width: 100%;
+}
+.recruit section.interview article h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  border-bottom: dashed 1px #ccc;
+  color: #333;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.recruit section.interview article h2 span {
+  font-size: 16px;
+  display: block;
+  color: #666;
+  margin-bottom: 10px;
+}
+.recruit section.interview article dt {
+  background: url(../img/recruit/icon-q.png) no-repeat center left;
+  background-size: 40px;
+  font-size: 18px;
+  color: #a30613;
+  padding: 10px 0 10px 50px;
+  margin-bottom: 20px;
+}
+.recruit section.interview article dd {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.recruit .entry-form .btn-basic {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px;
+  max-width: 300px;
+  background-color: #a30613;
+  border: none;
+  font-weight: 700;
+  color: #fff;
+}
+.recruit .entry-form .note {
+  font-size: 12px !important;
+  color: #d70050;
+}
+.recruit .entry-form .require {
+  color: #d70050;
+}
+.recruit .entry-form .form {
+  margin: 30px auto;
+  max-width: 800px;
+  border-top: 1px solid #ccc;
+}
+.recruit .entry-form .form .form-item {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+.recruit .entry-form .form .form-item .form-head {
+  margin-top: 10px;
+  width: 30%;
+  font-weight: bold;
+  font-size: 15px;
+}
+.recruit .entry-form .form .form-item .form-content {
+  width: 70%;
+}
+.recruit .entry-form .form .radio {
+  display: flex;
+}
+.recruit .entry-form .form .radio label {
+  display: block;
+  margin-right: 10px;
+}
+.recruit .entry-form .form textarea {
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  width: 100% !important;
+  padding: 8px 15px !important;
+  font-size: 13px !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  color: #333 !important;
+}
+.recruit .entry-form .form input[type=text], .recruit .entry-form .form input[type=tel], .recruit .entry-form .form input[type=number], .recruit .entry-form .form input[type=email], .recruit .entry-form .form input[type=password] {
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  width: 100% !important;
+  padding: 8px 15px !important;
+  font-size: 15px !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  height: 43px !important;
+  color: #333 !important;
+}
+.recruit .entry-form .form input.input-s {
+  max-width: 150px;
+}
+.recruit .entry-form .form input.input-m {
+  max-width: 300px;
+}
+.recruit .entry-form .form input[type=radio], .recruit .entry-form .form input[type=checkbox] {
+  font-size: 15px !important;
+}
+@media (max-width: 767px) {
+  .recruit .entry-form .btn-basic {
+    max-width: none;
+    width: 100%;
+  }
+  .recruit .entry-form .form .form-item {
+    display: block;
+  }
+  .recruit .entry-form .form .form-item .form-head {
+    margin-top: 0;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  .recruit .entry-form .form .form-item .form-content {
+    width: 100%;
+  }
+}
+
+/*----------------------------------------------------
+WP
+----------------------------------------------------*/
+/*
+Resize images to fit the main content area.
+- Applies only to images uploaded via WordPress by targeting size-* classes.
+- Other images will be left alone. Use "size-auto" class to apply to other images.
+*/
+img.size-auto, img.size-full, img.size-large, img.size-medium {
+  max-width: 100%;
+  /* When images are too wide for containing element, force them to fit. */
+  height: auto;
+  /* Override height to match resized width for correct aspect ratio. */
+}
+
+.attachment img {
+  max-width: 100%;
+  /* When images are too wide for containing element, force them to fit. */
+  height: auto;
+  /* Override height to match resized width for correct aspect ratio. */
+}
+
+.alignleft, img.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 24px;
+  margin-top: 4px;
+}
+
+.alignright, img.alignright {
+  display: inline;
+  float: right;
+  margin-left: 24px;
+  margin-top: 4px;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.alignleft, img.alignright, img.aligncenter {
+  margin-bottom: 12px;
+}
+
+.wp-caption {
+  background: #f1f1f1;
+  line-height: 18px;
+  margin-bottom: 20px;
+  max-width: 632px !important;
+  /* prevent too-wide images from breaking layout */
+  padding: 4px;
+  text-align: center;
+}
+.wp-caption img {
+  margin: 5px 5px 0;
+}
+.wp-caption p.wp-caption-text {
+  color: #888;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.wp-smiley {
+  margin: 0;
+}
+
+.gallery {
+  margin: 0 auto 18px;
+}
+.gallery .gallery-item {
+  float: left;
+  margin-top: 0;
+  text-align: center;
+  width: 33%;
+}
+
+.gallery-columns-2 .gallery-item {
+  width: 50%;
+}
+
+.gallery-columns-4 .gallery-item {
+  width: 25%;
+}
+
+.gallery img {
+  border: 2px solid #cfcfcf;
+}
+
+.gallery-columns-2 .attachment-medium {
+  max-width: 92%;
+  height: auto;
+}
+
+.gallery-columns-4 .attachment-thumbnail {
+  max-width: 84%;
+  height: auto;
+}
+
+.gallery .gallery-caption {
+  color: #888;
+  font-size: 12px;
+  margin: 0 0 12px;
+}
+.gallery dl {
+  margin: 0;
+}
+.gallery img {
+  border: 10px solid #f1f1f1;
+}
+.gallery br + br {
+  display: none;
+}
+
+#content .attachment img {
+  /* single attachment images should be centered */
+  display: block;
+  margin: 0 auto;
+}

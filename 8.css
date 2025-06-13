@@ -1,0 +1,253 @@
+@charset "utf-8"
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+/* header */
+
+
+.header {
+    position: fixed;
+    background-color: #333;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    /* position: relative; */
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    z-index: 1;
+    height: 40px;
+}
+
+.header-logo {
+    position: relative;
+    /* top: -20px; */
+    /* left: 20px; */
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.header-logo img {
+  height: 40px;
+  width: auto;
+  /* margin-top: -12px; */
+  cursor: pointer;
+}
+
+.header-menu {
+    font-size: 15px;
+    /* margin-left: 280px; */
+
+
+    
+}
+
+.header-menu ul {
+    display: flex;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.header-menu li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    
+}
+
+/* ハンバーガーはPCでは非表示、スマホで表示 */
+.menu-toggle {
+  display: none;
+  background: none;
+  font-size: 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* スマホサイズでメニューを非表示 */
+@media screen and (max-width: 768px) {
+  .header-menu {
+    display: none;
+    flex-direction: column; /* ← 縦並びにする */
+    align-items: flex-start; /* ← 左揃えなら flex-start */
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .header-menu.active {
+    display: flex;
+  }
+
+  .header-menu ul {
+    display: flex;
+    flex-direction: column; /* ← これも必要 */
+    width: 100%;
+  }
+
+  .header-menu li {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    border-bottom: 1px solid #444;
+  }
+
+  .header-menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+
+
+.section {
+    width: 100%;
+    
+}
+
+.about-headline {
+    text-align: center;
+}
+.about {
+   
+}
+.about-image {
+    align-items: center;
+    padding-top: 0;
+    padding-left: 0px;
+    /* width: 450px; */
+    height: 280px;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+.about-caption {
+
+}
+.about-headline {
+    padding-top: 25px;
+    font-size: 30px;
+}
+.about-descaption {
+    font-size: 18px;
+}
+
+
+.section_section-secounday {}
+.section-heading {
+    margin-top: 30px;
+}
+.grid_grid-col-4 {
+    
+}
+.grid-item {
+    list-style: none;
+}
+.py-name {
+    text-align: center;
+
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.py-flex {}
+.py-img-wrap {
+    /* width: 130px;
+    height: auto;
+    text-align: center; */
+     /* max-width: 600px;
+    width: 100%;
+    height: auto;
+    display: block; */
+
+}
+
+.py-img-wrap img {
+
+  width: 100%;
+  height: auto;
+  max-width: 450px; /* 元のサイズを超えない */
+  display: block;
+}
+
+
+.text {
+    
+}
+.py-title {
+    
+}
+.py-description {
+    margin-bottom: 30px;
+    margin-left: 0;
+    line-height: 1.8;
+}
+
+.profile-page {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background: linear-gradient(to bottom, #ffffff, #e0e0e0);
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background: linear-gradient(to-bottom, #eaeaea, #cccccc);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+}
+
+.button:active {
+
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.footer {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #333;
+}
+
+.footer-copy {
+    color: #ccc;
+}

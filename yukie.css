@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+.profile-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  background: #f0f0f0;
+  font-family: sans-serif;
+}
+
+
+
+.button {
+    display: inline-block;
+    background: linear-gradient(to bottom, #ffffff, #e0e0e0);
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background: linear-gradient(to-bottom, #eaeaea, #cccccc);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+}
+
+.button:active {
+
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 16px;
+  border-bottom: 2px solid black;
+}
+
+.header h2 {
+  font-size: 24px;
+}
+
+.header .ranking {
+  text-align: right;
+}
+
+.ranking .rank {
+  font-weight: bold;
+  color: #000;
+}
+
+.profile-images {
+  display: flex;
+   flex-wrap: nowrap; */
+  gap: 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-images img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+
+.profile-images img {
+  width: 100%;
+  max-width: 33%;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.info-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.box {
+  background: white;
+  padding: 16px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.box h3 {
+  background: black;
+  color: white;
+  padding: 8px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.box img {
+  max-height: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.box table td {
+  padding: 6px;
+  border-bottom: 1px solid #eee;
+}
+
+.others ul,
+.history ul {
+  padding-left: 16px;
+  list-style: none;
+}
+
+.others li a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.top-button {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 40px;
+}
