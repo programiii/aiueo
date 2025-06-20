@@ -74,14 +74,7 @@ body {
 }
 
 /* ハンバーガーはPCでは非表示、スマホで表示 */
-.menu-toggle {
-  display: none;
-  background: none;
-  font-size: 30px;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
+
 
 /* スマホサイズでメニューを非表示 */
 @media screen and (max-width: 768px) {
